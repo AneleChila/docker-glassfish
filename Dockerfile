@@ -35,7 +35,6 @@ ADD run.sh /run.sh
 ADD change_admin_password.sh /change_admin_password.sh
 ADD change_admin_password_func.sh /change_admin_password_func.sh
 ADD enable_secure_admin.sh /enable_secure_admin.sh
-ADD loyalty-server-2.18.1.war /loyalty-server-2.18.1.war
 ADD mysql-connector-java-5.1.47.jar /mysql-connector-java-5.1.47.jar
 RUN chmod +x /*.sh
 
