@@ -1,0 +1,6 @@
+# Step 2
+sudo sh dockerRun.sh
+
+
+#Memory limit /this case : 2GB/
+docker run -d -m 2GB -p 4848:4848 -p 8080:8080 -p 8181:8181 -e GLASSFISH_PASS="password" --name glassfish3 wigroup/glassfish3
