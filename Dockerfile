@@ -1,11 +1,7 @@
-#FROM wigroup/java
-
-#LABEL maintainer="anelec@wigroup.co.za"
-
 #Need to move this image to alpine
 FROM ubuntu:trusty
 
-LABEL maintainer="anelec@wigroup.co.za"
+LABEL maintainer="anelechila@gmail.com"
 
 # Install Oracle Java 7
 ENV JAVA_VER 7
